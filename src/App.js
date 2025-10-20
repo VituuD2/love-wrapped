@@ -158,7 +158,7 @@ const Grid = styled.div`
 const Heading = styled.h1`
   color: #b45d73;
   margin-bottom: 8px;
-  font-size: 28px;
+  font-size: 36px;
 `;
 
 const Sub = styled.p`

@@ -78,7 +78,7 @@ const CloseIcon = styled.div`
   position: absolute;
   top: 2px;
   right: 15px;
-  font-size: 30px;
+  font-size: 39px;
   color: white;
   cursor: pointer;
   z-index: 1001;
@@ -88,7 +88,7 @@ const PauseIcon = styled.div`
   position: absolute;
   top: 13px;
   right: 50px;
-  font-size: 17px;
+  font-size: 22px;
   color: white;
   cursor: pointer;
   z-index: 1001;
@@ -158,14 +158,6 @@ const StoryViewer = ({ stories, startIndex, hasInteracted, onClose }) => {
       } else {
         audio.play();
       }
-    }
-  }, [isPaused]);
-
-  useEffect(() => {
-    if (isPaused) {
-      audioRef.current.pause();
-    } else {
-      audioRef.current.play();
     }
   }, [isPaused]);
 

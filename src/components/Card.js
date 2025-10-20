@@ -27,11 +27,11 @@ const Title = styled.h3`
   text-align: center;
   color: #ffffffff;
   margin: 0;
-  font-size: 2.3rem;
+  font-size: 3rem;
   letter-spacing: 0.2px;
 
   @media (max-width: 400px) {
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 `;
 
@@ -45,30 +45,30 @@ const CardImage = styled.img`
 `;
 
 const Heart = styled.span`
-  font-size: 1.7rem;
+  font-size: 2.2rem;
 
   @media (max-width: 400px) {npm
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 `;
 
 const Content = styled.div`
   color: #ffffffff;
   margin-top: 12px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;  
   text-align: center;
   padding: 20px 5px;
   white-space: pre-wrap;
 
   @media (max-width: 400px) {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
   }
 `;
 
 const ExtraCard = styled.p`
-  font-family: "Georgia ", serif;"
-  font-size: 1.2rem;
+  font-family: "Georgia", serif;
+  font-size: 1.6rem;
   line-height: 1.1;
   font-style: italic;
   color: rgba(255, 255, 255, 1);
@@ -93,21 +93,21 @@ const PersonBlock = styled.div`
 
 const PersonLabel = styled.div`
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 2.2rem;
   color: #ffffffff;
   background-color: #ff69c0ff;
   border-radius: 5px;
 `;
 
 const PersonValue = styled.div`
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #ffffffff;
   background-color: #d429ffff;
   border-radius: 5px;
   margin-top: 4px;
 
   @media (max-width: 400px) {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 `;
 
