@@ -27,11 +27,11 @@ const Title = styled.h3`
   text-align: center;
   color: #ffffffff;
   margin: 0;
-  font-size: 4rem;
+  font-size: 3rem;
   letter-spacing: 0.2px;
 
   @media (max-width: 400px) {
-    font-size: 1.3rem;
+    font-size: 2.2rem;
   }
 `;
 
