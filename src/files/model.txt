@@ -1,0 +1,111 @@
+card1{
+    Vamos ver nossa retrospectiva ?
+}
+
+card 2{
+    Quem mais mandou Te Amo ?
+
+Lorena - quantity
+progress bar 
+
+João - quantity
+progress bar
+
+}
+
+card 3{
+    Nos trocamos muitas mensagens :0
+    Vamos ver quantas...
+}
+
+card 4{
+    Quantas mensagens nos trocamos?
+    {message quantity}
+
+    Lorena - {quantity}
+    João - {quantity}
+
+    {winner} enviou mais mensagens
+}
+
+card 5{
+    Vamos ver quantos dias seguidos nos conversamos{thinking emoji}
+}
+
+card 6{
+    Nos conversamos {days} dias seguidos {fireemoji}
+
+    1-6 - Credo só isso 
+    7 - 13 - Mais de uma semana, ta ruim ainda :/   
+    14 - 29 - Quase um mês conversando, ta ok mas podia ser melhor
+   30 - 40 - Ai sim um mêsinho humilde
+   41 - 90 - tempo dms slk 
+   91 - 200 - Haja tempo pra falar oloko kkkk
+   201 - 365 - Quase 1 Ano <3
+}
+
+card 7{ 
+   Quem mais pede desculpas
+   Vamos descobrir?
+}
+
+card 8{
+    desculpas
+
+    Lorena - {quantity}
+    João - {quantity}
+
+    {winner} pede mais desculpas
+    
+}
+
+card 9{    Quem mais manda audio
+    Vamos descobrir?
+}
+
+card 10{
+    Audios
+
+    Lorena - {quantity}
+    João - {quantity}
+
+    {winner} Realmente {winner} gosta de falar viu kk
+}
+
+card 11{
+    Quando tudo começou? 
+    {day_of_first_message}
+    data especial
+    Há {dias} dias atras
+}
+
+card 12{
+    Quem começa mais as conversas ?
+    vamos ver?
+}
+
+card 13{
+    Iniciou as conversas
+    {progress bar}
+
+    Lorena - {quantity}
+    João - {quantity}
+
+    {winner} puxa mais assunto
+}
+
+card 14{
+    João deixou uma mensagem especial para você:
+
+    "A pior coisa que poderia
+                    me acontecer, seria acordar
+                    e não estar com você.
+                    
+                Você é a melhor parte dos meus dias,
+                o motivo do meu sorriso e a calma
+                que eu nem sabia que podia ter.
+            
+                    Te ter ao meu lado faz tudo valer a pena.
+        
+            Eu te Amo!
+}
