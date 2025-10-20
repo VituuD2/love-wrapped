@@ -1,5 +1,6 @@
 // App.js
 import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import styled from "styled-components";
 import pic1 from "./files/pic1.png";
 import Card from "./components/Card";
@@ -167,7 +168,8 @@ const Sub = styled.p`
 
 export default function App() {
   const [storyViewer, setStoryViewer] = useState({ open: false, startIndex: 0, hasInteracted: false });
-  return (
+
+  const AppContent = () => (
     <Page>
       <Heading>Nossa Retrospectiva ✨</Heading>
       <Grid>
@@ -185,5 +187,13 @@ export default function App() {
         />
       )}
     </Page>
+  );
+
+  return (
+    <Router basename="/love-wrapped">
+      <Routes>
+        <Route path="/" element={<AppContent />} />
+      </Routes>
+    </Router>
   );
 }
