@@ -186,6 +186,7 @@ export default function App() {
           onClose={() => setStoryViewer({ open: false, startIndex: 0, hasInteracted: false })}
         />
       )}
+      <Sub>v1.0.5</Sub>
     </Page>
   );
 
