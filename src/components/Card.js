@@ -68,7 +68,7 @@ const Content = styled.div`
 
 const ExtraCard = styled.p`
   font-family: "Georgia", serif;
-  font-size: 1.6rem;
+  font-size: 1.4rem;
   line-height: 1.1;
   font-style: italic;
   color: rgba(255, 255, 255, 1);
